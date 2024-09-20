@@ -13,6 +13,6 @@ public class ejercicio5 {
 
 		System.out.print("Ingresa una cadena de texto: ");
 		String pepe = t.nextLine();
-		System.out.printf("Texto: %s, Número entero: %d, Número decimal: %.2f%n", pepe, a, b);
+		System.out.println("Texto: " + pepe + ", Número entero: " + a + ", Número decimal: " + b);
 	}
 }
